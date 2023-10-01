@@ -59,7 +59,7 @@ label piloto:
 
     narrador "Como também conhecido \"Promotor ás\", por sempre buscar ser eximio nas suas atividades jurídicas."
 
-    narador "Como promotor você investigará os crimes e vai reunir evidências o suficiente para determinar se existe acusação criminal, 
+    narrador "Como promotor você investigará os crimes e vai reunir evidências o suficiente para determinar se existe acusação criminal, 
     tendo evidências o suficiente você deve apresentar elas e justificar sua acusação."
 
     show ryota inseguro
