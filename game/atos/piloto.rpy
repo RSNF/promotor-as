@@ -6,7 +6,7 @@ define advogada = Character("Advogada")
 label piloto:
 
     narrador "Este é apenas um piloto para uma visual novel."
-    narrador "O nome do jogo, como também dos personagens e a história é discutivel e capaz de mundanças."
+    narrador "O nome do jogo, assim como dos personagens e a história, é discutível e sujeito a mudanças."
 
     play music "Starting Out Waltz Vivace.mp3"
 
@@ -16,12 +16,11 @@ label piloto:
         linear 15.0 yalign 0.0
     with dissolve
 
-    narrador "Olá, e bem vindo(a) ao Promotor Ás!"
+    narrador "Olá e bem-vindo(a) ao Promotor Ás!"
 
-    narrador "Neste jogo você jogará como o \"Promotor Ás\"."
+    narrador "Neste jogo, você jogará como o \"Promotor Ás\"."
 
-    narrador "Você enfretará vários julgamentos que colocarão seu conhecimento a prova,
-    como foco principal serão julgamentos todos relacionados a crimes virtuais, e veremos como se sairá."
+    narrador "Você enfrentará vários julgamentos que colocarão seu conhecimento à prova, com foco principal em julgamentos relacionados a crimes virtuais. Veremos como você se sairá."
 
     scene tribunal:
         xalign 0.5
@@ -30,9 +29,9 @@ label piloto:
 
     narrador "Este é o Tribunal de Justiça Central."
 
-    narrador "Onde muitos casos já foram julgados, muitos culpados dos seus crimes, outros, muitos também, absolvidos."
+    narrador "Onde muitos casos já foram julgados, muitos culpados dos seus crimes, outros, absolvidos."
 
-    narrador "O tribunal é por muitos considerado o paragão da justiça em sí!"
+    narrador "O tribunal é considerado por muitos como o paradigma da justiça em si!"
 
     scene black
     with dissolve
@@ -44,9 +43,7 @@ label piloto:
 
     show juiz 404
 
-    narrador "O juiz, ele é aquele que remediará as discussões, garantirá a administração dos processos legais, 
-    e justo, também será ele que tomará a decisão final declarada ao bater do martelo, apresente o que puder para 
-    trazer o juiz para o seu lado!"
+    narrador "O juiz é aquele que media as discussões, garante a administração dos processos legais e, por fim, toma a decisão final declarada ao bater do martelo. Apresente o que puder para conquistar o juiz para o seu lado!"
 
     scene cadeiras:
         xalign 1.0
@@ -57,20 +54,19 @@ label piloto:
 
     narrador "Este é Ryota Sakurai."
 
-    narrador "Como também conhecido \"Promotor ás\", por sempre buscar ser eximio nas suas atividades jurídicas."
+    narrador "Também conhecido como \"Promotor Ás\", por sempre buscar ser exímio em suas atividades jurídicas."
 
-    narrador "Como promotor você investigará os crimes e vai reunir evidências o suficiente para determinar se existe acusação criminal, 
-    tendo evidências o suficiente você deve apresentar elas e justificar sua acusação."
+    narrador "Como promotor, você investigará os crimes e reunirá evidências suficientes para determinar se existe acusação criminal. Tendo evidências suficientes, você deve apresentá-las e justificar sua acusação."
 
     show ryota inseguro
 
-    promotor_as "Mais um dia que começa, mas desafios pela frente."
+    promotor_as "Mais um dia que começa, mais desafios pela frente."
 
-    promotor_as "Hm, vejo que todos pela frente são de crimes virtuais..."
+    promotor_as "Hm, vejo que todos os casos de hoje são de crimes virtuais..."
 
     show ryota confiante
 
-    promotor_as "Justo o que eu sou o melhor!"
+    promotor_as "Justamente no que eu sou o melhor!"
 
     promotor_as "Talvez hoje seja um ótimo dia!"
 
@@ -85,13 +81,11 @@ label piloto:
     show advogada 404 at left
     with dissolve
 
-    narrador "Já está é ***, advogada e em muitos casos a oposição do nosso Promotor Ás."
+    narrador "Esta é ***, advogada e, em muitos casos, a oposição do nosso Promotor Ás."
 
-    narrador "Ela também estará atuando nos casos que você enfretará, e como de costume dela, será uma oposição de ferro, 
-    é bom que você esteja afiado."
+    narrador "Ela também estará atuando nos casos que você enfrentará e, como de costume, será uma oposição de ferro. É bom que você esteja afiado."
 
-    narrador "A advogada vai dar a sua acessória ao seu cliente e vai representar eles durante o julgamento, 
-    combatendo suas acusações e evidências."
+    narrador "A advogada dará assistência ao seu cliente e o representará durante o julgamento, combatendo suas acusações e evidências."
 
     scene tribunal:
         xalign 0.5
