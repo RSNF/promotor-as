@@ -41,9 +41,11 @@ label piloto:
         yalign 0.3
     with dissolve
 
-    show juiz 404
+    show juiz neutro 1
 
     narrador "O juiz é aquele que media as discussões, garante a administração dos processos legais e, por fim, toma a decisão final declarada ao bater do martelo. Apresente o que puder para conquistar o juiz para o seu lado!"
+
+    hide juiz neutro 1
 
     scene cadeiras:
         xalign 1.0
@@ -121,7 +123,7 @@ label piloto:
 
     narrador "hm? o que foi que houv-{nw}"
 
-    advogada "Como assim tchau? e por que a tela estava ficando escura e a música abaixando!? o jogo acabou?"
+    advogada "Como assim tchau? E por que a tela estava ficando escura e a música abaixando!? O jogo acabou?"
 
     narrador "Sim, acontece que o jogo nã-{nw}"
 
@@ -131,9 +133,9 @@ label piloto:
 
     narrador "..."
 
-    narrador "Olha meus bens, o jogo não ta completo, então por ora, esse é o fim..."
+    narrador "Olha meus bens, o jogo não está completo, então por ora, esse é o fim..."
 
-    narrador "No momento atual é jogo é uma demo, feito para gerar discussões, também para demonstrar o potencial da engine ren'py 
+    narrador "No momento, este jogo é uma demo, feito para gerar discussões e também para demonstrar o potencial da engine ren'py 
     e de que esse jogo pode ser tornar algo maior!"
 
     advogada "..."
