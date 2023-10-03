@@ -1,7 +1,7 @@
 define narrador = Character("")
 define juiz = Character("Juiz")
 define promotor_as = Character("Ryota")
-define advogada = Character("Advogada")
+define advogada = Character("Camila")
 
 label piloto:
 
@@ -78,14 +78,29 @@ label piloto:
         yalign 0.5
         xzoom -1.0
     
-    show advogada 404 at left
+    show camila neutra 2 at left
     with dissolve
 
-    narrador "Esta é ***, advogada e, em muitos casos, a oposição do nosso Promotor Ás."
+    narrador "Esta é Camila Oliveira, advogada e, em muitos casos, a oposição do nosso Promotor Ás."
 
     narrador "Ela também estará atuando nos casos que você enfrentará e, como de costume, será uma oposição de ferro. É bom que você esteja afiado."
 
     narrador "A advogada dará assistência ao seu cliente e o representará durante o julgamento, combatendo suas acusações e evidências."
+
+    show camila neutra 5 at left
+
+    advogada "Olá, eu sou Camila Oliveira."
+
+    advogada "Assim como o Ryota, sou uma peça importante neste jogo."
+
+    advogada "Enquanto ele busca a acusação, eu estarei aqui para defender os acusados."
+
+    advogada "A justiça é uma balança, e cabe a nós equilibrá-la."
+
+    advogada "Prepare-se, porque nossos caminhos se cruzarão muitas vezes."
+
+    hide advogada
+    with dissolve
 
     scene tribunal:
         xalign 0.5
