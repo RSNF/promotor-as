@@ -99,6 +99,49 @@ label piloto:
 
     advogada "Prepare-se, porque nossos caminhos se cruzarão muitas vezes."
 
+    narrador "Pronto! todos os personagens importantes já foram apresentados e introduzidos! É isso tchau!!"
+
+    scene black
+    with dissolve
+
+    stop music fadeout 1.0
+
+    pause 3.0
+
+    play sound "ping exclamation.mp3"
+
+    play music "Run Amok.mp3"
+
+    advogada "Espera um pouco aí!!"
+
+    scene tribunal:
+        xalign 0.5
+        yalign 0.35
+    with dissolve
+
+    narrador "hm? o que foi que houv-{nw}"
+
+    advogada "Como assim tchau? e por que a tela estava ficando escura e a música abaixando!? o jogo acabou?"
+
+    narrador "Sim, acontece que o jogo nã-{nw}"
+
+    advogada "O juiz sequer teve fala alguma! O jogo não pode acabar agora!"
+
+    narrador "Calma, Calma aí!"
+
+    narrador "..."
+
+    narrador "Olha meus bens, o jogo não ta completo, então por ora, esse é o fim..."
+
+    narrador "No momento atual é jogo é uma demo, feito para gerar discussões, também para demonstrar o potencial da engine ren'py 
+    e de que esse jogo pode ser tornar algo maior!"
+
+    advogada "..."
+
+    stop music fadeout 1.0
+
+    narrador "Então... por enquanto é isso, tchau!"
+
     hide advogada
     with dissolve
 
@@ -107,6 +150,6 @@ label piloto:
         yalign 0.35
     with dissolve
 
-    pause 15.0
+    pause 5.0
 
     return
