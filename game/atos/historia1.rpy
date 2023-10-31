@@ -6,10 +6,6 @@ define aluno1 = Character("Aluno 1")
 define aluno2 = Character("Aluno 2")
 define turma = Character("Turma")
 
-image profes sorridente = "/images/professora.png"
-
-image jovem sorridente = "/images/jovem.png"
-
 label historia1:
 
     scene black with fade
@@ -20,12 +16,13 @@ label historia1:
         xalign 0.5
         yalign 0.5
 
+    play music "sala.mp3"
+
     # show celestina at left with moveinleft
 
-    show profes sorridente at left with moveinleft:
+    show professora sorridente at left with moveinleft:
         zoom 1.6
         yalign 1.2
-    
 
     narrador "Numa tranquila aula de legislação, a {b}Prof. Celestina Morais{/b} pediu aos alunos que
     tomassem notas sobre o conteúdo apresentado para que fosse criado um relatório." with dissolve
@@ -58,6 +55,8 @@ label historia1:
 
     play sound "ping exclamation.mp3"
 
+    play music "Run Amok.mp3"
+
     narrador "**Com essa fala de {b}Abraão{/b}, desencadeou uma série de discussões entre os alunos**" with dissolve
 
     show jovem sorridente at center with moveinright
@@ -88,9 +87,11 @@ label historia1:
     narrador "A questão central: Seria a ação de {b}Abraão{/b} considerada um crime?
     Alguns colegas sentiram que sua privacidade fora invadida." with dissolve
 
-    show profes sorridente
+    show professora sorridente
 
     prof "Ok pessoal, acalmem-se, vamos resolver isso." with dissolve
+
+    play music "sala.mp3"
 
     show jovem sorridente at right with fade
 
@@ -123,7 +124,7 @@ label historia1:
 
     turma "Não." with dissolve
 
-    show profes sorridente
+    show professora sorridente
 
     prof "Pois deveriam estar por dentro das normas para não cometer erros como esses.
     Agindo desse modo, que direito Abraão está ferindo?" with dissolve
@@ -137,7 +138,7 @@ label historia1:
         "Direitos de \"imagem\"":
             $ direito_ferido = "Direitos de \"imagem\""
 
-    show profes sorridente
+    show professora sorridente
 
     prof "Exatamente. Ele está ferindo o direito de [direito_ferido] Que pode ser visto no Código Penal." with dissolve
 
