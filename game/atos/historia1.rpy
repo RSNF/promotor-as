@@ -16,12 +16,20 @@ label historia1:
         xalign 0.5
         yalign 0.5
 
-    show celestina at left with moveinleft
+    play music "sala.mp3"
+
+    # show celestina at left with moveinleft
+
+    show professora sorridente at left with moveinleft:
+        zoom 1.6
+        yalign 1.2
 
     narrador "Numa tranquila aula de legislação, a {b}Prof. Celestina Morais{/b} pediu aos alunos que
     tomassem notas sobre o conteúdo apresentado para que fosse criado um relatório." with dissolve
 
-    show abraao at right with moveinright
+    show jovem sorridente at right with moveinright:
+        zoom 1.4
+        yalign 1.2
 
     narrador "{b}Abraão{/b}, sempre buscava praticidade, com auxílio da tecnologia,
     e decidiu gravar um áudio da aula para ouvir mais tarde e elaborar seu relatório." with dissolve
@@ -47,9 +55,11 @@ label historia1:
 
     play sound "ping exclamation.mp3"
 
+    play music "Run Amok.mp3"
+
     narrador "**Com essa fala de {b}Abraão{/b}, desencadeou uma série de discussões entre os alunos**" with dissolve
 
-    show abraao assustado at center with moveinright
+    show jovem sorridente at center with moveinright
 
     narrador "{b}Abraão{/b} se assusta com a reação de seus colegas." with dissolve
 
@@ -77,11 +87,13 @@ label historia1:
     narrador "A questão central: Seria a ação de {b}Abraão{/b} considerada um crime?
     Alguns colegas sentiram que sua privacidade fora invadida." with dissolve
 
-    show celestina calma
+    show professora sorridente
 
     prof "Ok pessoal, acalmem-se, vamos resolver isso." with dissolve
 
-    show abraao at right with fade
+    play music "sala.mp3"
+
+    show jovem sorridente at right with fade
 
     turma "..." with dissolve
 
@@ -112,7 +124,7 @@ label historia1:
 
     turma "Não." with dissolve
 
-    show celestina questionadora
+    show professora sorridente
 
     prof "Pois deveriam estar por dentro das normas para não cometer erros como esses.
     Agindo desse modo, que direito Abraão está ferindo?" with dissolve
@@ -126,7 +138,7 @@ label historia1:
         "Direitos de \"imagem\"":
             $ direito_ferido = "Direitos de \"imagem\""
 
-    show celestina
+    show professora sorridente
 
     prof "Exatamente. Ele está ferindo o direito de [direito_ferido] Que pode ser visto no Código Penal." with dissolve
 
