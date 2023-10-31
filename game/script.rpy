@@ -4,6 +4,6 @@
 
 label start:
 
-    call piloto
+    call historia1
 
     return
