@@ -10,9 +10,9 @@ define joao = Character("João")
 define paulo = Character("Paulo")
 define vanessa = Character("Vanessa")
 
-image profes sorridente = "/images/professora.png"
+image profImg = "/images/professora.png"
 
-image jovem sorridente = "/images/jovem.png"
+image abraaoImg = "/images/jovem.png"
 
 image joaoImg = "/images/joao.png"
 image pauloImg = "/images/paulo.png"
@@ -255,17 +255,17 @@ label historia2:
 
     # show celestina at left with moveinleft
 
-    show profes sorridente at left with moveinleft:
-        zoom 1.6
-        yalign 1.2
+    show profImg at left with moveinleft:
+        zoom 1.2
+        yalign -0.5
     
 
     narrador "Numa tranquila aula de legislação, a {b}Prof. Celestina Morais{/b} pediu aos alunos que
     tomassem notas sobre o conteúdo apresentado para que fosse criado um relatório." with dissolve
 
-    show jovem sorridente at right with moveinright:
-        zoom 1.4
-        yalign 1.2
+    show jovem at right with moveinright:
+        zoom 1.2
+        yalign -0.5
 
     narrador "{b}Abraão{/b}, sempre buscava praticidade, com auxílio da tecnologia,
     e decidiu gravar um áudio da aula para ouvir mais tarde e elaborar seu relatório." with dissolve
@@ -293,7 +293,9 @@ label historia2:
 
     narrador "**Com essa fala de {b}Abraão{/b}, desencadeou uma série de discussões entre os alunos**" with dissolve
 
-    show jovem sorridente at center with moveinright
+    show jovem at right with moveinright:
+        zoom 1.2
+        yalign -0.5
 
     narrador "{b}Abraão{/b} se assusta com a reação de seus colegas." with dissolve
 
@@ -321,11 +323,15 @@ label historia2:
     narrador "A questão central: Seria a ação de {b}Abraão{/b} considerada um crime?
     Alguns colegas sentiram que sua privacidade fora invadida." with dissolve
 
-    show profes sorridente
+    show profImg at left with moveinleft:
+        zoom 1.2
+        yalign -0.5
 
     prof "Ok pessoal, acalmem-se, vamos resolver isso." with dissolve
 
-    show jovem sorridente at right with fade
+    show jovem at right with moveinright:
+        zoom 1.2
+        yalign -0.5
 
     turma "..." with dissolve
 
@@ -356,7 +362,9 @@ label historia2:
 
     turma "Não." with dissolve
 
-    show profes sorridente
+    show profImg at left with moveinleft:
+        zoom 1.2
+        yalign -0.5
 
     prof "Pois deveriam estar por dentro das normas para não cometer erros como esses.
     Agindo desse modo, que direito Abraão está ferindo?" with dissolve
@@ -370,7 +378,9 @@ label historia2:
         "Direitos de \"imagem\"":
             $ direito_ferido = "Direitos de \"imagem\""
 
-    show profes sorridente
+    show profImg at left with moveinleft:
+        zoom 1.2
+        yalign -0.5
 
     prof "Exatamente. Ele está ferindo o direito de [direito_ferido] Que pode ser visto no Código Penal." with dissolve
 
@@ -467,9 +477,9 @@ label historia2:
     prof "Vamos usar isso como conscientização sobre a importância do respeito à privacidade e a necessidade de seguir as regras.
     Isso pode servir como uma lição valiosa sobre ética, leis e respeito mútuo na era digital." with dissolve
 
-    hide celestina with moveoutleft
+    hide profImg with moveoutleft
 
-    hide abraao with moveoutright
+    hide abraaoImg with moveoutright
 
     scene black with fade
 
